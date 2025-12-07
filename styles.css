@@ -202,15 +202,21 @@ h4 {
     border-bottom: 1px solid #eee;
 }
 
-.company-name {
+.experience-item h3 {
     color: #4a90e2;
     margin: 0.25rem 0;
 }
 
-.date {
+.job-title {
     color: #777;
     font-style: italic;
+    margin-bottom: 0.5rem;
+}
+
+.job-details {
+    color: #555;
     margin-bottom: 0.75rem;
+    font-size: 0.9rem;
 }
 
 .experience-item ul {
