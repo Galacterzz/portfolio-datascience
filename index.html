@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Portfolio</div>
+            <ul class="nav-menu">
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-image">
+                    <img src="https://via.placeholder.com/250x250" alt="Profile Picture">
+                </div>
+                <div class="hero-text">
+                    <h1>JANE DOE</h1>
+                    <h2>SOFTWARE ENGINEER</h2>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> jane.doe@example.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> San Francisco, CA</p>
+                        <p><i class="fas fa-globe"></i> <a href="#">janedoe.com</a></p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                        <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="#"><i class="fab fa-youtube"></i> YouTube</a>
+                    </div>
+                    <p class="bio">
+                        Passionate software engineer with 5+ years of experience developing scalable web applications. 
+                        Specialized in JavaScript, React, and Node.js. Committed to writing clean, efficient code and 
+                        delivering exceptional user experiences.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience and Skills Section -->
+    <section class="content-section">
+        <div class="container">
+            <div class="split-content">
+                <!-- Left Column - Work Experience -->
+                <div class="main-column">
+                    <h2 class="section-header">WORK EXPERIENCE</h2>
+                    <div class="experience-item">
+                        <h3>Senior Software Engineer</h3>
+                        <h4 class="company-name">TechCorp Inc.</h4>
+                        <p class="date">Jan 2022 - Present</p>
+                        <ul>
+                            <li>Led development of customer-facing web applications using React and Node.js</li>
+                            <li>Improved application performance by 40% through code optimization</li>
+                            <li>Mentored junior developers and conducted code reviews</li>
+                        </ul>
+                    </div>
+                    <div class="experience-item">
+                        <h3>Software Engineer</h3>
+                        <h4 class="company-name">Innovate Solutions</h4>
+                        <p class="date">Mar 2020 - Dec 2021</p>
+                        <ul>
+                            <li>Developed RESTful APIs for mobile and web applications</li>
+                            <li>Implemented automated testing processes reducing bug reports by 25%</li>
+                            <li>Collaborated with cross-functional teams to deliver projects on time</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Right Column - Sidebar -->
+                <div class="sidebar">
+                    <div class="education">
+                        <h3>EDUCATION</h3>
+                        <h4 class="university">Stanford University</h4>
+                        <p>Master of Science, Computer Science</p>
+                        <p>2016 - 2018</p>
+                        <h4 class="university">UC Berkeley</h4>
+                        <p>Bachelor of Science, Software Engineering</p>
+                        <p>2012 - 2016</p>
+                        <p><strong>Honors:</strong> Dean's List, 2014-2016</p>
+                    </div>
+
+                    <div class="skills">
+                        <h3>SKILLS</h3>
+                        <div class="skill-item">
+                            <p>JavaScript</p>
+                            <div class="progress-bar">
+                                <div class="progress-fill expert"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <p>React</p>
+                            <div class="progress-bar">
+                                <div class="progress-fill advanced"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <p>Node.js</p>
+                            <div class="progress-bar">
+                                <div class="progress-fill advanced"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <p>Python</p>
+                            <div class="progress-bar">
+                                <div class="progress-fill comfortable"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <p>SQL</p>
+                            <div class="progress-bar">
+                                <div class="progress-fill comfortable"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="interests">
+                        <h3>INTERESTS</h3>
+                        <p>Open Source, Machine Learning, Photography, Hiking</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects-section" id="projects">
+        <div class="container">
+            <h2 class="section-header">PROJECTS</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>E-Commerce Platform</h3>
+                    <p>Full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, payment processing, and inventory management.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">MongoDB</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Task Management App</h3>
+                    <p>Collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Vue.js</span>
+                        <span class="tech-tag">Firebase</span>
+                        <span class="tech-tag">CSS3</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Weather Dashboard</h3>
+                    <p>Interactive weather dashboard with location-based forecasts, historical data visualization, and severe weather alerts.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Chart.js</span>
+                        <span class="tech-tag">Weather API</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <h3>Portfolio Generator</h3>
+                    <p>Automated portfolio generator that creates personalized portfolio websites from user input data and GitHub repositories.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Flask</span>
+                        <span class="tech-tag">HTML/CSS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <h2>GET IN TOUCH</h2>
+            <p>jane.doe@example.com</p>
+            <a href="mailto:jane.doe@example.com" class="cta-button">SEND EMAIL</a>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
