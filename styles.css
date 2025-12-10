@@ -341,6 +341,23 @@ h4 {
     transform: translateY(-2px);
 }
 
+/* Skill Badges */
+.skills-badges {
+    margin-top: 1rem;
+}
+
+.skill-badge-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.skill-badge {
+    height: 24px;
+    vertical-align: middle;
+}
+
 /* Projects Section */
 .projects-section {
     padding: 4rem 0;
